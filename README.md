@@ -76,7 +76,7 @@ Here's a good intro to Docker and VMs for those wanting more help https://medium
 2. Navigate to wherever you are going to keep your development files, and create a folder to contain all the code for the Ripple Stack.
   `mkdir ripple`
   `cd ripple`
-3. `git clone https://github.com/pacharanero/ripple-stack-vagrant-docker.git` # `git clone` this repository
+3. `git clone https://github.com/RippleOSI/ripple-stack-vagrant-docker.git` # `git clone` this repository
 4. `git clone https://github.com/PulseTile/PulseTile-React-Core.git ripple-pulsetile` Puts Pulsetile in ripple/ripple-pulsetile
 5. `git clone https://github.com/RippleOSI/Ripple-QEWD-Microservices ripple-qewd` Puts QEWD in our ripple/ripple-qewd
 
@@ -93,7 +93,7 @@ ripple
 
 6. go into the ripple-stack-vagrant-docker repository
 
-`cd ripple-stack-vagrant-docker`
+`cd ripple-stack-vagrant-docker/headless-version`
 
 7. Start Vagrant
 
